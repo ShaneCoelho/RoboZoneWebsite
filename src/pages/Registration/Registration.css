@@ -1,0 +1,16 @@
+.registration-bg {
+  background-image: url("../../assets/Registration/bg.png");
+  background-size: cover;
+  background-position: 2rem;
+  /* background-position-y: 0.1px; */
+}
+
+@media (max-width: 768px) {
+  .registration-bg {
+    background-image: url("../../assets/Registration/bg.png");
+    background-size: cover;
+    background-position: -300rem;
+    box-shadow: -23px -38px 248px 71px rgba(0, 0, 0, 0.73) inset;
+    /* background-position-x: -10px; */
+  }
+}
